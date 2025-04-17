@@ -145,7 +145,47 @@ header {
 }
 
 .description-right {
-    
+    position: relative;
+}
+
+.description-price {
+    font-family: 'PT Sans';
+    font-size: 2.22vh;
+    line-height: 2.22vh;
+    padding: 1.38vh;
+    background-color: #FF7028;
+    color: white;
+    position: absolute;
+    top: 28.43vh;
+    left: 6.30vw;
+}
+
+.description-tap {
+    max-height: 51.1vh;
+    display: block;
+}
+
+/*--------------------DESCRIPTION-INTRO---------------*/
+
+.description-intro {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.intro-orange {
+    font-family: 'PT Sans';
+    font-size: 1.6vh;
+    line-height: 2.5vh;
+}
+
+.intro-feature-content-title {
+    font-weight: bold;
+}
+
+.intro-feature {
+    display: flex;
+    align-items: start;
 }
 
 /*---------------------- COLORS ----------------------*/
